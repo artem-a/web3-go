@@ -19,7 +19,7 @@ type BlockHeader struct {
 	SealFields       []string      `json:"sealFields"`
 	Sha3Uncles       string        `json:"sha3Uncles"`
 	StateRoot        string        `json:"stateRoot"`
-	Timestamp        string        `json:"timestamp"`
+	Timestamp        json.Number   `json:"timestamp"`
 	TransactionsRoot string        `json:"transactionsRoot"`
 }
 
