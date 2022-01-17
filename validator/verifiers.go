@@ -84,7 +84,7 @@ func (v *Validator) verifyTrace() error {
 	}
 
 	blockHash := v.Block.Hash
-	blockNumberInt64, err := strconv.ParseInt(strings.TrimPrefix(v.Block.Number, "0x"), 16, 64)
+	blockNumberInt64, err := strconv.ParseInt(strings.TrimPrefix(string(v.Block.Number), "0x"), 16, 64)
 	if err != nil {
 		return err
 	}
