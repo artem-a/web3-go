@@ -13,7 +13,7 @@ type BlockHeader struct {
 	Miner            string        `json:"miner"`
 	MixHash          string        `json:"mixHash"`
 	Nonce            string        `json:"nonce"`
-	Number           json.Number   `json:"number"`
+	Number           string   		 `json:"string"`
 	ParentHash       string        `json:"parentHash"`
 	ReceiptsRoot     string        `json:"receiptsRoot"`
 	SealFields       []string      `json:"sealFields"`
