@@ -1,8 +1,10 @@
 package types
 
+import "encoding/json"
+
 type BlockHeader struct {
 	Author           string        `json:"author"`
-	Difficulty       string        `json:"difficulty"`
+	Difficulty       json.Number   `json:"difficulty"`
 	ExtraData        string        `json:"extraData"`
 	GasLimit         string        `json:"gasLimit"`
 	GasUsed          string        `json:"gasUsed"`
