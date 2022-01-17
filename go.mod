@@ -1,4 +1,4 @@
-module github.com/alethio/web3-go
+module github.com/artem-a/web3-go
 
 go 1.12
 
