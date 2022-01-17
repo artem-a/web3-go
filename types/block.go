@@ -6,7 +6,7 @@ type BlockHeader struct {
 	Author           string        `json:"author"`
 	Difficulty       json.Number   `json:"difficulty"`
 	ExtraData        string        `json:"extraData"`
-	GasLimit         string        `json:"gasLimit"`
+	GasLimit         json.Number   `json:"gasLimit"`
 	GasUsed          string        `json:"gasUsed"`
 	Hash             string        `json:"hash"`
 	LogsBloom        string        `json:"logsBloom"`
