@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alethio/web3-go/jsonrpc2"
+	"github.com/artem-a/web3-go/jsonrpc2"
 )
 
 // NewBatchLoader creates a new batchLoader given a fetch, wait, and maxBatch

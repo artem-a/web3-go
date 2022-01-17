@@ -9,13 +9,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/alethio/web3-go/strhelper"
-	"github.com/alethio/web3-go/types"
+	"github.com/artem-a/web3-go/strhelper"
+	"github.com/artem-a/web3-go/types"
 
-	"github.com/alethio/web3-go/etherr"
-	"github.com/alethio/web3-go/ethrpc/provider"
-	"github.com/alethio/web3-go/ethrpc/provider/httprpc"
-	"github.com/alethio/web3-go/ethrpc/provider/wsrpc"
+	"github.com/artem-a/web3-go/etherr"
+	"github.com/artem-a/web3-go/ethrpc/provider"
+	"github.com/artem-a/web3-go/ethrpc/provider/httprpc"
+	"github.com/artem-a/web3-go/ethrpc/provider/wsrpc"
 )
 
 // ETH server interaction

@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/alethio/web3-go/jsonrpc2"
+	"github.com/artem-a/web3-go/jsonrpc2"
 	"github.com/sirupsen/logrus"
 )
 

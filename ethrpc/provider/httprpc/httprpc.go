@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/alethio/web3-go/etherr"
-	"github.com/alethio/web3-go/jsonrpc2"
+	"github.com/artem-a/web3-go/etherr"
+	"github.com/artem-a/web3-go/jsonrpc2"
 )
 
 const (

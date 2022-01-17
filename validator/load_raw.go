@@ -3,7 +3,7 @@ package validator
 import (
 	"encoding/json"
 
-	"github.com/alethio/web3-go/types"
+	"github.com/artem-a/web3-go/types"
 )
 
 func (v *Validator) LoadBlockResponse(data []byte) error {

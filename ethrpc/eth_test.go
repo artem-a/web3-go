@@ -6,14 +6,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/alethio/web3-go/types"
+	"github.com/artem-a/web3-go/types"
 
-	"github.com/alethio/web3-go/thelper"
+	"github.com/artem-a/web3-go/thelper"
 
 	"github.com/stretchr/testify/assert"
 
 	mock "github.com/alethio/ethmock/server"
-	"github.com/alethio/web3-go/ethrpc/provider/httprpc"
+	"github.com/artem-a/web3-go/ethrpc/provider/httprpc"
 )
 
 var update = flag.Bool("update", false, "update golden files")
